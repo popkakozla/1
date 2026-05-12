@@ -1,0 +1,60 @@
+Win + R
+cmd
+cd \
+md Temp
+cd Temp
+
+md A1
+md A2
+md Personal
+md University
+md Hobby
+
+cd A2
+md B1
+md B2
+md B3
+md B4
+md B5
+
+rd B2
+cd \Temp\Personal
+copy con Name.txt
+Kirill Ostapenko
+Ctrl + Z
+Enter
+copy con Date.txt
+10.09.2007
+copy con School.txt
+MBOU BUZANINOVSKAYA SOW
+cd \Temp\University
+copy con Name.txt
+MFUA
+copy con Mark.txt
+Math - 70 Russian - 54 Informatics - 60 Total - 184
+cd \Temp\Hobby
+copy con hobby.txt
+Gaming, Programming, CS2
+copy hobby.txt \Temp\A2\Lab_1.txt
+cd \Temp\A2
+
+copy Lab_1.txt copy_Lab_1.txt
+
+del copy_Lab_1.txt
+cls
+cd \Temp\Personal
+
+type Name.txt
+type Date.txt
+type School.txt
+dir /ON
+copy Name.txt+Date.txt+School.txt all.txt
+type all.txt
+notepad all.txt
+type all.txt
+copy all.txt \Temp\A1
+cd \Temp
+
+rd /S /Q A1
+rd /S /Q A2
+prompt $p$g
