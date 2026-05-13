@@ -1,0 +1,19 @@
+cd \
+cd Windows
+dir
+
+start notepad.exe
+
+tasklist
+
+tasklist | find "notepad"
+
+taskkill /IM notepad.exe /F
+
+start write.exe
+
+tasklist | find "explorer.exe"
+
+taskkill /IM explorer.exe /F
+
+start explorer.exe
