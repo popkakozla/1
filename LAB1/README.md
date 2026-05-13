@@ -20,12 +20,11 @@
 - md
 - rd
 - copy
-- type
-- ren
 - del
 - dir
 - prompt
 - cls
+- tree
 
 ## Результат
 Были освоены базовые команды командной строки Windows.
