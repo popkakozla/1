@@ -1,0 +1,13 @@
+ssh user@192.168.129.150
+123
+
+cd /
+cd <group_number>
+mkdir <surname>
+ls -R
+exit
+
+ls ~/.ssh
+ssh-keygen
+ssh-copy-id user@192.168.129.150
+ssh user@192.168.129.150
