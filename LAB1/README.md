@@ -1,3 +1,4 @@
+
 # Лабораторная работа №1
 
 ## Тема
@@ -28,3 +29,4 @@
 
 ## Результат
 Были освоены базовые команды командной строки Windows.
+<img width="326" height="244" alt="image" src="https://github.com/user-attachments/assets/56e85340-bc34-4fd2-bac8-b7808116a3cc" />
