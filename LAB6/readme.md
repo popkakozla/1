@@ -71,7 +71,7 @@ echo "Привет, $lastname, тебе $age"
 ```bash
 ssh user@192.168.129.150
 
-
+---
 
 
 
