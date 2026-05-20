@@ -71,4 +71,8 @@ echo "Привет, $lastname, тебе $age"
 ```bash
 ssh user@192.168.129.150
 
+
+
+
+
 <img width="1365" height="767" alt="1" src="https://github.com/user-attachments/assets/8e80141a-101c-4e73-a639-12ea79729c9f" />
