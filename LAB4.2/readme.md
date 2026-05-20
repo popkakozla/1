@@ -19,6 +19,10 @@ ssh user@192.168.129.150
 ### 2. Работа с каталогами
 В корневом каталоге найдена папка группы.  
 Создан каталог с фамилией студента.
+Создано дерево каталогов по 1 варианту задания.
+Команды:
+cd
+mkdir
 
 ---
 
@@ -36,19 +40,10 @@ ls -R
 
 exit
 
----
 
-## Часть 2 — SSH ключи
+<img width="661" height="325" alt="image" src="https://github.com/user-attachments/assets/bfe74000-8d4a-46c4-8a5d-f335e0406556" />
 
-### Генерация ключей
-ssh-keygen
 
-### Копирование ключа на Raspberry Pi
-ssh-copy-id user@192.168.129.150
+<img width="1012" height="719" alt="image" src="https://github.com/user-attachments/assets/9d33e8fc-d84f-42b8-8c54-f895348bc5ec" />
 
----
 
-## Результат
-Теперь подключение выполняется без пароля:
-
-ssh user@192.168.129.150
